@@ -41,7 +41,7 @@ const server = new Hapi.Server({
       },
     },
   ]);
-
+ 
   server.route([
     {
       method: 'GET',
@@ -128,3 +128,7 @@ const server = new Hapi.Server({
   await server.start();
   console.log('server running at', port);
 })();
+
+
+
+

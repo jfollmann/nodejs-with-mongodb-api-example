@@ -1,0 +1,20 @@
+version: '3'
+services:
+  api-herois:
+    #build: .
+    image: jfollmann/api-herois:v1
+    container_name: api-herois
+    ports:
+      - 3000:3000
+    environment:
+      MONGO_URL: mongodb
+    depends_on:
+      - mongodb
+    links:
+      - mongodb
+
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    ports:
+      - 27017:27017
