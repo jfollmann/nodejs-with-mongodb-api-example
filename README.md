@@ -25,6 +25,8 @@
 
 # ![Markdown Here logo](https://camo.githubusercontent.com/9cf76f2bd4230c106e7ea7c8b557a5afb4df85d7/68747470733a2f2f7261772e6769746875622e636f6d2f6164616d2d702f6d61726b646f776e2d686572652f6d61737465722f7372632f636f6d6d6f6e2f696d616765732f69636f6e34382e706e67) Docker, Kubernetes, AzCLI, ACS, AKS
 
+[Maratona Kubernetes](https://www.youtube.com/playlist?list=PLB1hpnUGshULerdlzMknMLrHI810xIBJv)
+
 ### Conteúdo
 **[Azure CLI](#azure-cli)**<br>
 **[Azure Container Registry (ACR)](#Azure-Container-Registry-(ACR))**<br>
