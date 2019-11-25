@@ -226,44 +226,6 @@ Create pod with declarative mode:
 
 Criação do arquivo manifest => .json ou yaml
 
-heroes-pod.json:
-``` json
-{
-  "apiVersion": "v1",
-  "kind": "Pod",
-  "metadata": {
-    "name": "api-herois-pod",
-    "labels": {
-      "version": "v1",
-      "app": "api-heroes"
-    }
-  },
-  "spec": {
-    "containers": [
-      {
-        "name": "api-herois",
-        "image": "jfollmann/api-herois:v1",
-        "ports": [
-          {
-            "containerPort": 4000
-          }
-        ],
-        "env": [
-          {
-            "name": "MONGO_URL",
-            "value": "10.244.1.4"
-          },
-          {
-            "name": "PORT",
-            "value": "4000"
-          }
-        ]
-      }
-    ]
-  }
-}
-```
-
 ```bash
 kubectl create -f 1.pods/heroes-pod.json
 ```
